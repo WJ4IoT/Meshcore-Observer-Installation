@@ -1,0 +1,19 @@
+# Cornmeister.nl Packet Analyzer broker preset
+
+[[broker]]
+name = "cornmeister-nl"
+enabled = true
+server = "mqtt.cornmeister.nl"
+port = 8883
+keepalive = 60
+qos = 0
+retain = true
+
+[broker.tls]
+enabled = true
+verify = true
+
+[broker.auth]
+method = "password"
+username = "observer"
+password = "hiermetdiedata"
