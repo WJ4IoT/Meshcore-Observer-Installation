@@ -8,7 +8,7 @@ ports = ["/dev/serial/by-id/usb-RAKwireless_WisCore_RAK4631_Board_619E6DDF4F95D2
 
 [remote_serial]
 enabled = true
-allowed_companions = ["7060F147A15DA7F2754B9806A4863F07872D6FD789F15A16C72F52C112021C45","CF10D47F8689C507DD4C3A6BF900073385AA1FE2424D3B21CA2349AF070F5075"]
+allowed_companions = ["<public key companion>"]
 
 [[broker]]
 name = "my-mqtt"
