@@ -88,7 +88,7 @@ wget -O mctomqtt-config/config.d/letsmesh.toml https://raw.githubusercontent.com
 ```
 
 ```bash
-# example conrmeister.nl
-wget -O mctomqtt-config/config.d/letsmesh.toml https://raw.githubusercontent.com/WJ4IoT/Meshcore-Observer-Docker-Installation-Instructions/refs/heads/main/cornmeister-nl.toml
+# example cornmeister.nl
+wget -O mctomqtt-config/config.d/cornmeister-nl.homl https://raw.githubusercontent.com/WJ4IoT/Meshcore-Observer-Docker-Installation-Instructions/refs/heads/main/cornmeister-nl.toml
 ```
 The maximum number of MQTT servers is 4 (?)
